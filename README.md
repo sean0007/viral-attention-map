@@ -1,0 +1,1 @@
+# Viral Attention Map\n\nFree educational click magnet. Not financial advice. Not a trading bot.\n
