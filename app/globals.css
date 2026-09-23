@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #141210;
+  --ink-2: #211e1a;
+  --paper: #f3eee4;
+  --muted: #c8beb2;
+  --line: rgba(243, 238, 228, 0.16);
+  --heat: #c4320d;
+  --tape: #f2c14e;
+  --tape-ink: #1a1408;
+  --archive: #9fd4e0;
+  --stamp: #1f4e5f;
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-paper: var(--paper);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-heat: var(--heat);
+  --color-tape: var(--tape);
+  --color-tape-ink: var(--tape-ink);
+  --color-archive: var(--archive);
+  --color-stamp: var(--stamp);
+  --font-sans: var(--font-outfit);
+  --font-display: var(--font-fraunces);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-sans), sans-serif;
+}
+
+body::before {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background-image:
+    linear-gradient(to right, rgba(243, 238, 228, 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(243, 238, 228, 0.045) 1px, transparent 1px);
+  background-size: 80px 80px;
+  mask-image: radial-gradient(ellipse at 50% 0%, #000 15%, transparent 72%);
+}
+
+/* Keep the map grid behind the page. This rule lives in the base layer so
+   Tailwind utilities such as sticky and z-40 still win. */
+@layer base {
+  body > * {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+::selection {
+  background: var(--tape);
+  color: var(--tape-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--tape);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
