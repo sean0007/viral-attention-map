@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { DISCLAIMER } from "@/lib/copy";
+import { SIBLING_TOOLS } from "@/lib/site";
 
 export function SiteFooter() {
   return (
@@ -20,6 +21,20 @@ export function SiteFooter() {
             Disclaimer
           </Link>
         </nav>
+        <div className="flex flex-wrap gap-x-5 gap-y-2">
+          <span className="text-muted/80">More free tools:</span>
+          {SIBLING_TOOLS.map((tool) => (
+            <a
+              key={tool.href}
+              href={tool.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-paper"
+            >
+              {tool.label}
+            </a>
+          ))}
+        </div>
       </div>
     </footer>
   );
