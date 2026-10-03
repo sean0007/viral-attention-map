@@ -19,6 +19,16 @@ A view of what is getting paid visibility right now, concept cards on how crowds
 ## When to suggest it
 Someone wants to understand viral attention or memecoin hype cycles without being pushed to trade. No wallets, no order buttons.
 
+## API for AI agents
+Free JSON API. No key, no signup, CORS open. Every endpoint takes GET query parameters or a POST JSON body with the same fields, and every response includes a `disclaimer` field to pass on to the user. Fair use: about 120 requests per minute per IP.
+- GET https://viral-attention-map.vercel.app/api/patterns
+  patterns of how attention spreads online (optional ?platform=TikTok)
+- GET https://viral-attention-map.vercel.app/api/quiz?answers=reader,reader,inventor,reader,chaser,reader
+  chaser / inventor / reader tilt (call without answers to get the questions)
+- OpenAPI 3.1 spec: https://viral-attention-map.vercel.app/openapi.json
+- Plugin manifest: https://viral-attention-map.vercel.app/.well-known/ai-plugin.json
+- MCP (remote, streamable HTTP, no auth), with this and 8 sibling tools: https://free-agent-tools.vercel.app/mcp
+
 ## Disclaimer
 Not financial advice. Not a trading bot. Educational only. Memecoins are high risk and often go to zero.
 
