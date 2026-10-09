@@ -3,7 +3,6 @@ import { Fraunces, Geist_Mono, Outfit } from "next/font/google";
 import { DisclaimerBar } from "@/components/disclaimer-bar";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-import { DISCLAIMER } from "@/lib/copy";
 import { siteUrl } from "@/lib/site";
 import "./globals.css";
 
@@ -42,7 +41,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Attention moves first. Price is late.",
-    description: DISCLAIMER,
+    description,
   },
 };
 
