@@ -5,6 +5,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { siteUrl } from "@/lib/site";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const sans = Outfit({
   subsets: ["latin"],
@@ -68,7 +69,7 @@ export default function RootLayout({
           {children}
         </main>
         <SiteFooter />
-      </body>
+      <Analytics /></body>
     </html>
   );
 }
