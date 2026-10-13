@@ -51,3 +51,5 @@ Not financial advice. Not a trading bot. Educational only. Memecoins are high ri
 - AppGate Pack: https://appgate-pack.vercel.app/check
 - AI Bottleneck Map: https://ai-bottleneck-map.vercel.app
 - Japan Tax-Free Refund: https://japan-tax-free-refund.vercel.app
+- Japan Visa Fee Calculator: https://japan-visa-fee.vercel.app
+- Japan Luggage Check: https://japan-luggage.vercel.app

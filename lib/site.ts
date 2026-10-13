@@ -38,4 +38,6 @@ export const SIBLING_TOOLS = [
   { href: "https://appgate-pack.vercel.app/check", label: "AppGate Pack" },
   { href: "https://ai-bottleneck-map.vercel.app", label: "AI Bottleneck Map" },
   { href: "https://japan-tax-free-refund.vercel.app", label: "Japan Tax-Free Refund" },
+  { href: "https://japan-visa-fee.vercel.app", label: "Japan Visa Fee Calculator" },
+  { href: "https://japan-luggage.vercel.app", label: "Japan Luggage Check" },
 ] as const;
