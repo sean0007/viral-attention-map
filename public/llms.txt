@@ -53,3 +53,4 @@ Not financial advice. Not a trading bot. Educational only. Memecoins are high ri
 - Japan Tax-Free Refund: https://japan-tax-free-refund.vercel.app
 - Japan Visa Fee Calculator: https://japan-visa-fee.vercel.app
 - Japan Luggage Check: https://japan-luggage.vercel.app
+- Kyushu Travel Discount: https://kyushu-travel-discount.vercel.app
