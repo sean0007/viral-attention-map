@@ -55,3 +55,4 @@ Not financial advice. Not a trading bot. Educational only. Memecoins are high ri
 - Japan Luggage Check: https://japan-luggage.vercel.app
 - Kyushu Travel Discount: https://kyushu-travel-discount.vercel.app
 - Japan Customs Allowance: https://japan-customs-allowance.vercel.app
+- Japan TB Screening (JPETS): https://japan-tb-screening.vercel.app
