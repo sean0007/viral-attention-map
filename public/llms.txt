@@ -57,3 +57,4 @@ Not financial advice. Not a trading bot. Educational only. Memecoins are high ri
 - Japan Customs Allowance: https://japan-customs-allowance.vercel.app
 - Japan TB Screening (JPETS): https://japan-tb-screening.vercel.app
 - Japan Dual Pricing Check: https://japan-dual-pricing.vercel.app
+- Japan Alert Decoder: https://japan-alert-decoder.vercel.app
