@@ -45,4 +45,5 @@ export const SIBLING_TOOLS = [
   { href: "https://japan-tb-screening.vercel.app", label: "Japan TB Screening (JPETS)" },
   { href: "https://japan-dual-pricing.vercel.app", label: "Japan Dual Pricing Check" },
   { href: "https://japan-alert-decoder.vercel.app", label: "Japan Alert Decoder" },
+  { href: "https://japan-pr-check.vercel.app", label: "Japan PR Guideline Check" },
 ] as const;
