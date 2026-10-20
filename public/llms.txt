@@ -59,3 +59,4 @@ Not financial advice. Not a trading bot. Educational only. Memecoins are high ri
 - Japan Dual Pricing Check: https://japan-dual-pricing.vercel.app
 - Japan Alert Decoder: https://japan-alert-decoder.vercel.app
 - Japan PR Guideline Check: https://japan-pr-check.vercel.app
+- Japan International Postage 2027 (Japan Post international mail prices now vs from 2027-02-01: EMS, parcels, small packets, letters, postcards; keyless API): https://japan-intl-postage.vercel.app
