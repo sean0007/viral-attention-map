@@ -48,4 +48,5 @@ export const SIBLING_TOOLS = [
   { href: "https://japan-pr-check.vercel.app", label: "Japan PR Guideline Check" },
   { href: "https://japan-intl-postage.vercel.app", label: "Japan International Postage 2027" },
   { href: "https://japan-reentry-check.vercel.app", label: "Japan Re-entry Deadline Check" },
+  { href: "https://japan-overseas-dependents.vercel.app", label: "Japan Overseas Dependents Check" },
 ] as const;
